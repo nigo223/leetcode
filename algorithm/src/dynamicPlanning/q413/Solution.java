@@ -29,14 +29,6 @@ package dynamicPlanning.q413;
         返回: 3, A 中有三个子等差数组: [1, 2, 3], [2, 3, 4] 以及自身 [1, 2, 3, 4]。
 
 */
-class Test {
-    public static void main(String[] args) {
-        int[] nums = {
-                1, 2, 3, 8, 9, 10};
-        System.out.println(new Solution().numberOfArithmeticSlices(nums));
-    }
-}
-
 
 class Solution {
     public int numberOfArithmeticSlices(int[] A) {
@@ -54,7 +46,6 @@ class Solution {
                 i++;
             }
         }
-
         return ans;
     }
 }
