@@ -1,2 +1,2 @@
 # leetcode
-learn algorithms
+leetcode 算法题
